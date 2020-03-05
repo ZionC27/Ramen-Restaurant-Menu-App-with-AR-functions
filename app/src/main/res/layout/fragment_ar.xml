@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light">
+    android:background="@drawable/wood" >
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="AR Fragment"
-        android:textSize="30dp"
-        android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Original Ramen"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="36sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="291dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:text="Original Ramen"
+                app:srcCompat="@drawable/og" />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
