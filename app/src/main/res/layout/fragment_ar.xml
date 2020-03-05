@@ -15,29 +15,51 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/hint"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_height="169dp"
+                android:fontFamily="@font/bank"
+                android:gravity="center"
+                android:text="Press on the image to try out AR"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/Ogtext"
                 android:layout_width="match_parent"
                 android:layout_height="72dp"
                 android:layout_gravity="center"
-                android:fontFamily="cursive"
+                android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:text="Original Ramen"
                 android:textColor="@color/design_default_color_background"
                 android:textSize="36sp" />
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/Ogramen"
                 android:layout_width="291dp"
-                android:layout_height="275dp"
+                android:layout_height="293dp"
                 android:layout_gravity="center"
                 android:text="Original Ramen"
                 app:srcCompat="@drawable/og" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Miso Ramen"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="307dp"
+                android:layout_height="301dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/miso" />
         </LinearLayout>
     </ScrollView>
 
