@@ -60,6 +60,25 @@
                 android:layout_height="301dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/miso" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Spicy Red Tonkotsu"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="306dp"
+                android:layout_height="292dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/spicy" />
         </LinearLayout>
     </ScrollView>
 
