@@ -1,16 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Menu Fragment"
-        android:textSize="30dp"
-        android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wood"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Menu"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20px"
+                android:text="House Bowl"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20px"
+                app:srcCompat="@drawable/housebowl" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50px"
+                android:paddingTop="30px"
+                android:paddingRight="30px"
+                android:paddingBottom="30px"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20px"
+                android:text="Miso"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/miso" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50px"
+                android:paddingTop="30px"
+                android:paddingRight="30px"
+                android:paddingBottom="30px"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
