@@ -3,16 +3,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wood">
-
-
-
-
-  <WebView
-      android:id="@+id/webView"
-      android:layout_width="match_parent"
-      android:layout_height="375dp"
-      android:layout_alignParentBottom="true"
-      android:layout_marginBottom="0dp" />
-
-</RelativeLayout>
+    android:background="@drawable/wood"/>
