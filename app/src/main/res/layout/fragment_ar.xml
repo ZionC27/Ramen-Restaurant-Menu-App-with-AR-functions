@@ -7,6 +7,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
+        android:clickable="true"
         android:layout_height="match_parent">
 
         <LinearLayout
@@ -41,6 +42,7 @@
                 android:layout_height="293dp"
                 android:layout_gravity="center"
                 android:text="Original Ramen"
+                android:onClick="Click"
                 app:srcCompat="@drawable/og" />
 
             <TextView
@@ -130,10 +132,10 @@
                 android:textColor="@color/design_default_color_background"
                 android:textSize="40dp" />
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/Curryramen"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="301dp"
+                android:layout_height="307dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/curry" />
 
