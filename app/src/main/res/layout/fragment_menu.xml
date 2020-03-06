@@ -61,7 +61,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Green Onion"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -90,7 +90,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Miso, Sweet Corn, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion "
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -119,7 +119,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Spicy Oil, Chili Pepper Flakes, Green Onion"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -148,7 +148,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Kimchi, Soft Boiled Egg"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -177,7 +177,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Sesame Oil, Roasted Sesame Seeds, Soft Boiled Egg, Green Onion"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -206,7 +206,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Miso, Curry, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion Choice of Sauce: Honey Garlic, Teriyaki, Spicy Garlic "
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -235,7 +235,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Kimchi, Black Garlic Oil, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion "
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -264,7 +264,7 @@
                 android:paddingTop="30px"
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Tincidunt lobortis feugiat vivamus at augue. Orci a scelerisque purus semper. Fames ac turpis egestas sed tempus urna et pharetra. Turpis massa sed elementum tempus egestas sed sed. Nibh ipsum consequat nisl vel pretium lectus quam id. Tortor aliquam nulla facilisi cras fermentum odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Tempus iaculis urna id volutpat. Mollis aliquam ut porttitor leo."
+                android:text="Tonkotsu Broth, Chashu, Sukiyaki Beef, Grilled Prawns, Soft Boiled Eggs, Kikurage, Bamboo Shoot, Green Onion"
                 android:textColor="#FFFFFF" />
         </LinearLayout>
     </ScrollView>
