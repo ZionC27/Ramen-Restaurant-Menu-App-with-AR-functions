@@ -167,6 +167,19 @@
                 android:text="Wakayama House Bowl"
                 android:textColor="@color/design_default_color_background"
                 android:textSize="36dp" />
+
+            <ImageButton
+                android:id="@+id/Houseramen"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/housebowl" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp" />
         </LinearLayout>
     </ScrollView>
 
