@@ -44,7 +44,7 @@
                 app:srcCompat="@drawable/og" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/Miso"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cuisine"
@@ -55,14 +55,14 @@
                 android:textSize="40dp" />
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/Misoramen"
                 android:layout_width="307dp"
                 android:layout_height="301dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/miso" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/spicy"
                 android:layout_width="match_parent"
                 android:layout_height="98dp"
                 android:fontFamily="@font/cuisine"
@@ -74,11 +74,99 @@
                 android:textSize="40dp" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/spicyramen"
                 android:layout_width="306dp"
                 android:layout_height="292dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/spicy" />
+
+            <TextView
+                android:id="@+id/kimchi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Kimchi Delight"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/Kimchiramen"
+                android:layout_width="295dp"
+                android:layout_height="302dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kimchi" />
+
+            <TextView
+                android:id="@+id/Sesame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Sesame Shoyu"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/Sesameramen"
+                android:layout_width="299dp"
+                android:layout_height="304dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sesame" />
+
+            <TextView
+                android:id="@+id/Curry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Curry Tonkotsu"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageView
+                android:id="@+id/Curryramen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/curry" />
+
+            <TextView
+                android:id="@+id/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Black Tonkotsu"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="40dp" />
+
+            <ImageButton
+                android:id="@+id/blackramen"
+                android:layout_width="297dp"
+                android:layout_height="312dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/black" />
+
+            <TextView
+                android:id="@+id/House"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:text="Wakayama House Bowl"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="36dp" />
         </LinearLayout>
     </ScrollView>
 
