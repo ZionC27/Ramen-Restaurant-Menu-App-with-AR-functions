@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 
 public class ARFragment extends Fragment  {
 
-
+    Intent intent ;
 
     @Nullable
     @Override
@@ -31,10 +31,13 @@ public class ARFragment extends Fragment  {
         curry =  (ImageButton) view.findViewById(R.id.Curryramen);
         black = (ImageButton) view.findViewById(R.id.blackramen);
         house = (ImageButton) view.findViewById(R.id.Houseramen);
+
         og.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                Toast.makeText(getActivity(),"og",Toast.LENGTH_LONG).show();
+               intent = new Intent(getActivity(),Arfunction.class);
+               startActivity(intent);
             }
         });
         miso.setOnClickListener(new View.OnClickListener() {
