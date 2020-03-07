@@ -37,6 +37,8 @@ public class ARFragment extends Fragment  {
             public void onClick(View v) {
                Toast.makeText(getActivity(),"og",Toast.LENGTH_LONG).show();
                intent = new Intent(getActivity(),Arfunction.class);
+               String og = "Ramen";
+               intent.putExtra("Ramen", og);
                startActivity(intent);
             }
         });

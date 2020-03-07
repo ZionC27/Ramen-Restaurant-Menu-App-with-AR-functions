@@ -20,12 +20,16 @@ public class Arfunction extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arfunction);
+        Bundle bundle = getIntent().getExtras();
+        String ramentype = bundle.getString("Ramen");
+        ramentype += ".sfb";
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
+        String finalRamentype = ramentype;
         arFragment.setOnTapArPlaneListener((hitResult, plane, motionEvent) -> {
             Anchor anchor = hitResult.createAnchor();
 
             ModelRenderable.builder()
-                    .setSource(this, Uri.parse("Ramen.sfb"))
+                    .setSource(this, Uri.parse(finalRamentype))
                     .build()
                     .thenAccept(modelRenderable -> addModelToScene(anchor, modelRenderable))
                     .exceptionally(throwable -> {
