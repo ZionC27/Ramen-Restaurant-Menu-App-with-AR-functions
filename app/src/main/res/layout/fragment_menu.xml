@@ -32,7 +32,7 @@
                 android:paddingTop="15px"
                 android:text="Menu"
                 android:textColor="#FFFFFF"
-                android:textSize="36sp" />
+                android:textSize="50sp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -43,7 +43,7 @@
                 android:paddingTop="20px"
                 android:text="Original Ramen"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -62,7 +62,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Green Onion"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -73,7 +74,7 @@
                 android:paddingBottom="20px"
                 android:text="Miso Ramen"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -91,7 +92,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Miso, Sweet Corn, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion "
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/spicy"
@@ -102,7 +104,7 @@
                 android:paddingBottom="20px"
                 android:text="Spicy Red Tonkotsu"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -120,7 +122,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Spicy Oil, Chili Pepper Flakes, Green Onion"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -131,7 +134,7 @@
                 android:paddingBottom="20px"
                 android:text="Kimchi Delight"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -149,7 +152,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Kimchi, Soft Boiled Egg"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -160,7 +164,7 @@
                 android:paddingBottom="20px"
                 android:text="Sesame Shoyu"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -178,7 +182,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Sesame Oil, Roasted Sesame Seeds, Soft Boiled Egg, Green Onion"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -189,7 +194,7 @@
                 android:paddingBottom="20px"
                 android:text="Curry Tonkotsu"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -207,7 +212,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Miso, Curry, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion Choice of Sauce: Honey Garlic, Teriyaki, Spicy Garlic "
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -218,7 +224,7 @@
                 android:paddingBottom="20px"
                 android:text="Black Tonkotsu"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -236,7 +242,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Kimchi, Black Garlic Oil, Soft Boiled Egg, Kikurage, Bamboo Shoot, Green Onion "
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -247,7 +254,7 @@
                 android:paddingBottom="20px"
                 android:text="Wakayama House Bowl"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" />
+                android:textSize="36sp" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -265,7 +272,8 @@
                 android:paddingRight="30px"
                 android:paddingBottom="30px"
                 android:text="Tonkotsu Broth, Chashu, Sukiyaki Beef, Grilled Prawns, Soft Boiled Eggs, Kikurage, Bamboo Shoot, Green Onion"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
