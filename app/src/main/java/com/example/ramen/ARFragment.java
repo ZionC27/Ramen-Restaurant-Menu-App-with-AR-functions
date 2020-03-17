@@ -46,6 +46,10 @@ public class ARFragment extends Fragment  {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"Miso",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "Miso";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         spicy.setOnClickListener(new View.OnClickListener() {

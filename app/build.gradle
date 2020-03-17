@@ -48,3 +48,8 @@ sceneform.asset('sampledata/Ramen.obj',
         'default',
         'sampledata/Ramen.sfa',
         'src/main/assets/Ramen')
+
+sceneform.asset('sampledata/Miso.obj',
+        'default',
+        'sampledata/Miso.sfa',
+        'src/main/assets/Miso')
