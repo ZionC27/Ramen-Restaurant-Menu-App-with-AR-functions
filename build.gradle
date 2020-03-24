@@ -2,7 +2,8 @@
 
 buildscript {
     repositories {
-        google()
+       // mavenCentral() //allows us to use FB social buttons
+        google() //allows us to use GOOGLE services (ie: maps >> About item)
         jcenter()
         
     }

@@ -25,6 +25,10 @@ android {
 }
 
 dependencies {
+
+    //Grants access to FB login page or the relevant FB page  --- the sdk[5,6] may need to be changed
+    //impletmention 'com.facebook.android:facebook-android-sdk:[5,6)'
+
     // Provides ARCore Session and related resources.
     implementation 'com.google.ar:core:1.15.0'
 

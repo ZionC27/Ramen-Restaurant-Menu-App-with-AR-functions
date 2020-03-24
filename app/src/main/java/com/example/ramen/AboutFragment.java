@@ -3,6 +3,7 @@ package com.example.ramen;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,38 +19,44 @@ import androidx.fragment.app.Fragment;
 public class AboutFragment extends Fragment
 {
 
-    private Button button;
-    private TextView textView;
+    public static String  TAG_STR = "income";
+    public static final String A_STR = "unique name";
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
 
-        //link to website that build all of the button code:
-        //https://www.c-sharpcorner.com/article/sociamedia-link-share-in-android-using-androi/
-
-       /* button=(Button) getView().findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                String shareBody = "Your body is here";
-                String shareSub = "Your subject";
-                intent.putExtra(Intent.EXTRA_SUBJECT, shareBody);
-                intent.putExtra(Intent.EXTRA_TEXT, shareBody);
-                startActivity(Intent.createChooser(intent, "share using"));
-
-            }
-        });
-
-*/
         //orginal code
         return inflater.inflate(R.layout.fragment_about, container, false);
 
 
     }//end onCreateView
 
+    /*public void onClick(View view)
+    {
+        Button but = (Button) view;
+
+        String message = "Package";
+
+        Log.v("button", String.valueOf(but.getId()));
+
+        Intent intent = new Intent(this, MapFragment.class);
+
+        switch (but.getId())
+        {
+            case R.id.locationButton:
+            {
+                TAG_STR = "location";
+                message = "location";
+                break;
+            }//end case1
+        }//end switch
+
+        intent.putExtra(TAG_STR, message);
+        startActivity(intent);
+
+    }//end onClick method
+
+*/
 }//end class

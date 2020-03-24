@@ -4,5 +4,9 @@
     <string name="navigation_drawer_open">Open navigation drawer </string>
     <string name="navigation_drawer_close">Close navigation drawer </string>
 
+    <!-- May need to put a app ID for Wak Ramen Bar, may not though. ID is found on their FB page's
+    business account-->
+    <string name="facebook_app_id">Facebook App ID</string>
+
 
 </resources>
