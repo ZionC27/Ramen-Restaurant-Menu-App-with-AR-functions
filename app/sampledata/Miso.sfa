@@ -1,34 +1,34 @@
 {
-  materials: [
-    {
-      name: 'material_0',
-      parameters: [
-        {
-          baseColor: 'map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096',
-        },
-        {
-          baseColorTint: [
-            1,
-            1,
-            1,
-            1,
-          ],
-        },
-        {
-          metallic: 1,
-        },
-        {
-          roughness: 1,
-        },
-        {
-          opacity: null,
-        },
-      ],
-      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
-    },
-  ],
-  model: {
-    attributes: [
+                   materials: [
+                     {
+                       name: 'material_0',
+                       parameters: [
+                         {
+                           baseColor: 'map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096',
+                         },
+                         {
+                           baseColorTint: [
+                             1,
+                             1,
+                             1,
+                             1,
+                           ],
+                         },
+                         {
+                           metallic: 1,
+                         },
+                         {
+                           roughness: 1,
+                         },
+                         {
+                           opacity: null,
+                         },
+                       ],
+                       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+                     },
+                   ],
+                   model: {
+                     attributes: [
       'Position',
       'TexCoord',
       'Orientation',
@@ -40,9 +40,9 @@
   },
   samplers: [
     {
-      file: 'C:\\\\Users\\\\zion2\\\\Downloads\\\\map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096.jpg',
+      file: 'sampledata/map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096.jpg',
       name: 'map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096',
-      pipeline_name: 'C:\\\\Users\\\\zion2\\\\Downloads\\\\map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096.jpg',
+      pipeline_name: 'sampledata/map_a7afa733-102e-436a-b0c3-ae2a59c777c7_densified_mesh_textured_4096.jpg',
     },
   ],
   version: '0.54:2',
