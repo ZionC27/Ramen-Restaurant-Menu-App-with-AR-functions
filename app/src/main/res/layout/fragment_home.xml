@@ -67,6 +67,26 @@
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/closeup" />
 
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="143dp"
+                android:layout_height="134dp"
+                android:background="@drawable/facebook"
+                android:scaleType="fitCenter"
+                android:translationX="30dp"
+                android:translationY="60dp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="143dp"
+                android:layout_height="134dp"
+                android:background="@drawable/instagram"
+                android:scaleType="fitCenter"
+                android:translationX="230dp"
+                android:translationY="-75dp"
+                app:srcCompat="@drawable/instagram" />
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
