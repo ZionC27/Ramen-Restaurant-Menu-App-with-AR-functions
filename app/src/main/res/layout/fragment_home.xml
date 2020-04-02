@@ -67,6 +67,17 @@
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/closeup" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuisine"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:text="Connect With Us!"
+                android:textColor="#FFF7F7"
+                android:textSize="36sp" />
+
             <ImageButton
                 android:id="@+id/imageButton"
                 android:layout_width="143dp"
