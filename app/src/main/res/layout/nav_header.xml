@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="245dp"
-        android:layout_height="130dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_width="240dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/wakayamatwo" />
 </LinearLayout>
