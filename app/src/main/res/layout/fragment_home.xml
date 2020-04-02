@@ -63,9 +63,9 @@
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
-                android:layout_height="333dp"
+                android:layout_height="279dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/closeup" />
+                app:srcCompat="@drawable/misoclose" />
 
             <TextView
                 android:id="@+id/textView3"
