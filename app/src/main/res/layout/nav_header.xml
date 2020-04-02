@@ -11,18 +11,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="102dp"
-        android:layout_height="95dp"
-        app:srcCompat="@drawable/ogramen" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="cursive"
-        android:paddingTop="8dp"
-        android:text="Wakayama Ramen Bar"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="24sp" />
-
-
+        android:layout_width="245dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/logo" />
 </LinearLayout>
