@@ -85,12 +85,14 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/miso" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -104,6 +106,7 @@
                 android:id="@+id/spicy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -115,12 +118,14 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/spicy" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -134,6 +139,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -145,12 +151,14 @@
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/kimchi" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -164,6 +172,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -175,12 +184,14 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/sesame" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -194,6 +205,7 @@
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -205,12 +217,14 @@
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/curry" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -224,6 +238,7 @@
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -235,12 +250,14 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/black" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
@@ -254,6 +271,7 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/cuisine"
                 android:gravity="center"
                 android:paddingBottom="20px"
@@ -265,12 +283,14 @@
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 app:srcCompat="@drawable/housebowl" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:paddingLeft="50px"
                 android:paddingTop="30px"
