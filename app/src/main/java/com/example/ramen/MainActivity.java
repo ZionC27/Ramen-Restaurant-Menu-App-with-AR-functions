@@ -7,8 +7,13 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
 
@@ -79,5 +84,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else {
             super.onBackPressed();
         }
+    }
+
+    public void startIntents(View view) {
+
+        Uri facebook = Uri.parse("https://www.facebook.com/wakayamaramenbar/");
+        Intent webIntent = new Intent(Intent.ACTION_VIEW, facebook);
+        startActivity(webIntent);
     }
 }

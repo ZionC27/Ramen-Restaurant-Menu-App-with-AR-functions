@@ -86,6 +86,7 @@
                 android:scaleType="fitCenter"
                 android:translationX="30dp"
                 android:translationY="60dp"
+                android:onClick="startIntents"
                 app:srcCompat="@drawable/facebook" />
 
             <ImageButton
