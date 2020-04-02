@@ -28,8 +28,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                android:background="#E2C7C7C7"
-                android:backgroundTint="#E9CFCFCF"
+                android:background="#EB3A3939"
+                android:backgroundTint="#C9585757"
                 app:srcCompat="@drawable/wakayama" />
 
             <TextView
