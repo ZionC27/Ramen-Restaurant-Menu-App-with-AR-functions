@@ -28,9 +28,14 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                android:background="#EB3A3939"
-                android:backgroundTint="#C9585757"
+                android:background="#D2F0F0F0"
                 app:srcCompat="@drawable/wakayama" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                app:srcCompat="@drawable/spicyclose" />
 
             <TextView
                 android:id="@+id/textView2"

@@ -277,7 +277,7 @@
                 android:paddingBottom="20px"
                 android:text="Wakayama House Bowl"
                 android:textColor="#FFFFFF"
-                android:textSize="36sp" />
+                android:textSize="35sp" />
 
             <ImageView
                 android:id="@+id/imageView9"
