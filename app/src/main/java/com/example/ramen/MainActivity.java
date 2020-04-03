@@ -19,6 +19,8 @@ import android.widget.ImageView;
 
 import com.google.android.material.navigation.NavigationView;
 
+import static java.net.Proxy.Type.HTTP;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
@@ -86,10 +88,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    public void startIntents(View view) {
+    public void openFacebook(View view) {
 
         Uri facebook = Uri.parse("https://www.facebook.com/wakayamaramenbar/");
-        Intent webIntent = new Intent(Intent.ACTION_VIEW, facebook);
-        startActivity(webIntent);
+        Intent faceIntent = new Intent(Intent.ACTION_VIEW, facebook);
+        startActivity(faceIntent);
+    }
+
+    public void openInsta (View view) {
+        Uri instagram = Uri.parse("https://www.instagram.com/wakayamaramenbar/");
+        Intent instaIntent = new Intent(Intent.ACTION_VIEW, instagram);
+        startActivity(instaIntent);
+    }
+
+    public void openPhone(View view) {
+        Uri number = Uri.parse("tel:2364253330");
+        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+        startActivity(callIntent);
+    }
+
+    public void openEmail(View view) {
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        emailIntent.setType("text/html");
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] {"wakayama@shaw.ca"});
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Email subject");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "Email message text");
+        emailIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse("content://path/to/email/attachment"));
+        startActivity(Intent.createChooser(emailIntent, "Send Email"));
     }
 }

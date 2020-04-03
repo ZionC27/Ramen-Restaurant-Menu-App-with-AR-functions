@@ -2,12 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/wood">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/wood"
+        android:background="#7A000000"
         android:orientation="vertical">
 
 
@@ -22,7 +23,6 @@
             android:id="@+id/Location"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="#7A000000"
             android:fontFamily="@font/bank"
 
             android:gravity="center"
@@ -49,71 +49,77 @@
             android:id="@+id/contact"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="#7A000000"
             android:fontFamily="@font/bank"
-            android:gravity="center|left"
+            android:gravity="center"
 
+            android:paddingTop="35dp"
             android:text="  How to reach us:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
 
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="133dp"
-            android:background="#7A000000"
-            android:fontFamily="@font/bank"
-            android:gravity="center"
-            android:lineSpacingExtra="8sp"
-            android:text="🍜                                             #101 - 795 McGill Road                      Kamloops, BC V2C0B9"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:background="@drawable/facebook"
+            android:onClick="openFacebook"
+            android:scaleType="fitCenter"
+            android:translationX="40dp"
+            android:translationY="60dp"
+            app:srcCompat="@drawable/facebook" />
 
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="match_parent"
-            android:layout_height="88dp"
-            android:background="#7A000000"
-            android:fontFamily="@font/bank"
-            android:gravity="center"
-            android:lineSpacingExtra="8sp"
-            android:text="📞                                              236 - 425 - 3330 "
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:background="@drawable/instagram"
+            android:onClick="openInsta"
+            android:scaleType="fitCenter"
+            android:translationX="250dp"
+            android:translationY="-65dp"
+            app:srcCompat="@drawable/instagram" />
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="104dp"
-            android:background="#7A000000"
-            android:fontFamily="@font/bank"
-            android:gravity="center"
-            android:lineSpacingExtra="8sp"
-            android:text="📧                                                Wakayama@shaw.ca"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:background="@drawable/whatsapp"
+            android:onClick="openPhone"
+            android:scaleType="fitCenter"
+            android:translationX="40dp"
+            app:srcCompat="@drawable/whatsapp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="122dp"
+            android:layout_height="122dp"
+            android:background="@drawable/email"
+            android:onClick="openEmail"
+            android:scaleType="fitCenter"
+            android:translationX="250dp"
+            android:translationY="-125dp"
+            app:srcCompat="@drawable/email" />
 
 
         <TextView
             android:id="@+id/purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7A000000"
             android:fontFamily="@font/bank"
             android:gravity="center"
 
             android:text="Purpose:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:translationY="-50dp" />
 
         <TextView
             android:id="@+id/Purpose1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#7A000000"
             android:fontFamily="@font/bank"
             android:gravity="center"
             android:paddingLeft="30px"
@@ -121,7 +127,8 @@
             android:paddingRight="30px"
             android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:translationY="-25dp" />
 
 
         <!--        <Button
