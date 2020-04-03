@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,48 +7,55 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/wood"
-        android:orientation="vertical"
-        android:scrollbarSize="3dp">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="match_parent"
-            android:layout_height="174dp"
-            android:background="#B7DBDBDB"
-            app:srcCompat="@drawable/wakayama" />
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/Logo"
             android:layout_width="match_parent"
-            android:layout_height="159dp"
-            android:background="#7A000000"
-            android:fontFamily="@font/bank"
-            android:gravity="center"
-            android:paddingLeft="50px"
-            android:paddingRight="50px"
-            android:text="Join Us For a Bowl"
-            android:textColor="#FFFFFF"
-            android:textSize="50sp" />
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="match_parent"
-            android:layout_height="416dp"
-            app:srcCompat="@drawable/store" />
+            android:layout_height="127dp"
+            android:background="@drawable/logo" />
 
         <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="147dp"
-            android:background="#7A000000"
+            android:id="@+id/Location"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="#37000000"
+            android:backgroundTint="#00000000"
             android:fontFamily="@font/bank"
-            android:gravity="center"
-            android:lineSpacingExtra="8sp"
-            android:paddingLeft="40px"
-            android:paddingRight="40px"
-            android:text="🍜                                #101 - 795 McGill Road kamloops, BC V2C0B9"
+
+            android:gravity="left"
+            android:text="Our Location:"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="431dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:paddingTop="50px" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/bank"
+            android:gravity="left"
+
+            android:text="Contact Us:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView24"
@@ -79,15 +85,46 @@
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
+
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/purpose"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:background="#37000000"
+            android:fontFamily="@font/bank"
+            android:gravity="left"
+
+            android:text="Purpose:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Purpose1"
             android:layout_width="match_parent"
-            android:layout_height="93dp"
-            android:fontFamily="@font/cuisine"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:fontFamily="@font/bank"
             android:gravity="center"
-            android:text="Connect With Us!"
-            android:textColor="#FFF7F7"
-            android:textSize="36sp" />
+            android:paddingTop="50px"
+            android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+
+        <!--        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:background="@drawable/ogramen"
+            android:fontFamily="@font/bank"
+            android:onClick="onClick"
+            android:text="Click to see our menu"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        -->
 
 
         <!--<Button

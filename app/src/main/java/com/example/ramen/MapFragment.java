@@ -41,7 +41,7 @@ public class MapFragment extends Fragment
         WebView webView = (WebView)view.findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true); //enables javascript
         webView.setWebViewClient(new WebViewClient());//allows us to open URL in app
-        webView.loadUrl("https://www.google.com/maps?q=wakayama+ramen+kamloops&rlz=1C1CHBF_enCA876CA876&um=1&ie=UTF-8&sa=X&ved=2ahUKEwivh96aqoToAhUPCTQIHSjdDDcQ_AUoAnoECBQQBA");
+        webView.loadUrl("https://www.facebook.com/wakayamaramenbar/");
         return view;
         //return inflater.inflate(R.layout.fragment_map, container, false);
     }
