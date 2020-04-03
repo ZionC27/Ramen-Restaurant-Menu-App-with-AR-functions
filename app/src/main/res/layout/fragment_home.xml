@@ -60,7 +60,7 @@
                 android:fontFamily="@font/bank"
                 android:gravity="center"
                 android:paddingTop="40dp"
-                android:paddingBottom="60dp"
+                android:paddingBottom="40dp"
                 android:text="Follow us!"
                 android:textColor="#FFFFFF"
                 android:textSize="35sp" />
