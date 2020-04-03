@@ -1,122 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#7A000000"
+        android:background="@drawable/wood"
         android:orientation="vertical">
 
-        <TextView
+        <ImageView
+            android:id="@+id/imageView13"
             android:layout_width="match_parent"
-            android:layout_height="127dp"
-            android:background="@drawable/name" />
-
-        <TextView
-            android:id="@+id/text1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text=" A cozy Ramen Bar..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...Serving noodles in flavorful broth, boiled for 12-16 hours..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...With various nutritious ingredients..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="174dp"
-            android:background="@drawable/VeggiesBitch" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...featuring signature Japanese appies made-to-order..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="30px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="50px"
-            android:text="...Just for you!"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/menuButton"
-            android:layout_width="match_parent"
-            android:layout_height="287dp"
-            android:background="@drawable/ogramen"
-            android:fontFamily="@font/bank"
-            android:onClick="onClick"
-            android:text="Click to see our menu"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...All made-to-order - just for you!"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"
-            android:textStyle="bold"/>
-
+            android:layout_height="183dp"
+            android:background="#B7DBDBDB"
+            app:srcCompat="@drawable/wakayama" />
 
 
         <!--<Button
