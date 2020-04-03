@@ -23,6 +23,13 @@
             android:background="@drawable/wood"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                android:background="#F2C4C2C2"
+                app:srcCompat="@drawable/wakayama" />
+
             <TextView
                 android:id="@+id/Miso"
                 android:layout_width="match_parent"
