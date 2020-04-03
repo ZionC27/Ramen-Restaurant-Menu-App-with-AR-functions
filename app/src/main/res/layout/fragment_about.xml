@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:background="#7A000000"
             android:fontFamily="@font/bank"
-            android:gravity="left"
+            android:gravity="center"
 
             android:text="Purpose:"
             android:textColor="#FFFFFF"
@@ -116,7 +116,9 @@
             android:background="#7A000000"
             android:fontFamily="@font/bank"
             android:gravity="center"
+            android:paddingLeft="30px"
             android:paddingTop="50px"
+            android:paddingRight="30px"
             android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
