@@ -7,6 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#7A000000"
+        android:backgroundTint="#FFFFFF"
         android:orientation="vertical">
 
 
@@ -18,45 +19,76 @@
 
         <TextView
             android:id="@+id/Location"
-            android:layout_width="match_parent"
+            android:layout_width="190dp"
             android:layout_height="wrap_content"
+            android:background="#37000000"
             android:fontFamily="@font/bank"
             android:gravity="left"
-            android:paddingTop="50px"
+
             android:text="Our Location:"
-            android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <WebView
             android:id="@+id/webView"
             android:layout_width="match_parent"
-            android:layout_height="222dp"
+            android:layout_height="431dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:paddingTop="50px"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp" />
-
+            android:layout_marginBottom="0dp"
+            android:paddingTop="50px" />
 
         <TextView
-            android:id="@+id/Purpose"
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#37000000"
+            android:fontFamily="@font/bank"
+            android:gravity="left"
+
+            android:text="Contact Us:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contactInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:fontFamily="@font/bank"
             android:gravity="left"
             android:paddingTop="50px"
-            android:text="The purpose of this App:"
+            android:text="email: wakayama@shaw.ca
+call: 236 425 3330"
             android:textColor="#000000"
             android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:background="#37000000"
+            android:fontFamily="@font/bank"
+            android:gravity="left"
+
+            android:text="Purpose:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/Purpose1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:fontFamily="@font/bank"
             android:gravity="center"
             android:paddingTop="50px"
@@ -65,9 +97,7 @@
             android:textSize="24sp" />
 
 
-
-
-<!--        <Button
+        <!--        <Button
             android:id="@+id/menuButton"
             android:layout_width="match_parent"
             android:layout_height="287dp"

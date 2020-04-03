@@ -5,6 +5,8 @@ import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -17,28 +19,16 @@ public class Home extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
+    {
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        WebView webView = (WebView)view.findViewById(R.id.webView);
+        webView.getSettings().setJavaScriptEnabled(true); //enables javascript
+        webView.setWebViewClient(new WebViewClient());//allows us to open URL in app
+        webView.loadUrl("https://www.instagram.com/wakayamaramenbar/?hl=en");
+        return view;
+        //return inflate
 
-/*        LinearLayout gallery = (LinearLayout) getView().findViewById(R.id.gallery);
-
-        //inflater = LayoutInflater.from(this);
-
-        for(int i = 0; i < 6; i++)
-        {
-            View view = inflater.inflate(R.layout.fragment_home, gallery, false);
-
-            TextView textView = view.findViewById(R.id.text);
-            textView.setText("Ramen One");
-
-            ImageView imageView = view.findViewById(R.id.imageView);
-            imageView.setImageResource(R.drawable.black);
-
-            gallery.addView(view);
-
-        }
-
-*/
-
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        //return inflater.inflate(R.layout.fragment_home, container, false);
     }
 }
