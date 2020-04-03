@@ -6,8 +6,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#7A000000"
-        android:backgroundTint="#FFFFFF"
+        android:background="@drawable/wood"
         android:orientation="vertical">
 
 
@@ -22,9 +21,10 @@
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:background="#37000000"
+            android:backgroundTint="#00000000"
             android:fontFamily="@font/bank"
-            android:gravity="left"
 
+            android:gravity="left"
             android:text="Our Location:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
@@ -48,7 +48,7 @@
             android:id="@+id/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#37000000"
+            android:background="#00FFFFFF"
             android:fontFamily="@font/bank"
             android:gravity="left"
 
@@ -58,16 +58,31 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/contactInfo"
+            android:id="@+id/textView24"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:layout_height="97dp"
+            android:background="#7A000000"
             android:fontFamily="@font/bank"
-            android:gravity="left"
-            android:paddingTop="50px"
-            android:text="email: wakayama@shaw.ca
-call: 236 425 3330"
-            android:textColor="#000000"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="📞                                236 - 425 - 3330 "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="📧                                Email us :                                       Wakayama@shaw.ca"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
 
@@ -88,12 +103,12 @@ call: 236 425 3330"
             android:id="@+id/Purpose1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
+            android:background="#00FFFFFF"
             android:fontFamily="@font/bank"
             android:gravity="center"
             android:paddingTop="50px"
             android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
 
