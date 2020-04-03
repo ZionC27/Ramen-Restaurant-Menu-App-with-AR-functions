@@ -52,36 +52,45 @@
             android:fontFamily="@font/bank"
             android:gravity="left"
 
-            android:text="Contact Us:"
+            android:text="How to reach us:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
 
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="left"
+            android:lineSpacingExtra="8sp"
+            android:text="🍜@:#101 - 795 McGill Road kamloops, BC V2C0B9"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
-            android:layout_height="97dp"
+            android:layout_height="27dp"
             android:background="#7A000000"
             android:fontFamily="@font/bank"
-            android:gravity="center"
+            android:gravity="left"
             android:lineSpacingExtra="8sp"
-            android:paddingLeft="40px"
-            android:paddingRight="40px"
-            android:text="📞                                236 - 425 - 3330 "
+            android:text="📞: 236 - 425 - 3330 "
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="match_parent"
-            android:layout_height="119dp"
+            android:layout_height="40dp"
             android:background="#7A000000"
             android:fontFamily="@font/bank"
-            android:gravity="center"
+            android:gravity="left"
             android:lineSpacingExtra="8sp"
-            android:paddingLeft="40px"
-            android:paddingRight="40px"
-            android:text="📧                                Email us :                                       Wakayama@shaw.ca"
+            android:text="📧: Wakayama@shaw.ca"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
