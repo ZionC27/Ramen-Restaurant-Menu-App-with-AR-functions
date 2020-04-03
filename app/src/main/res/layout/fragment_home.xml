@@ -59,7 +59,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingTop="50px"
+                android:paddingTop="40dp"
+                android:paddingBottom="60dp"
                 android:text="Follow us!"
                 android:textColor="#FFFFFF"
                 android:textSize="35sp" />
@@ -78,22 +79,6 @@
                 android:layout_marginBottom="0dp"
                 android:paddingTop="50px" />
 
-
-
-
-
-
-            <!-- <TextView
-                 android:id="@+id/textView8"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:fontFamily="@font/bank"
-                 android:gravity="center"
-                 android:paddingTop="50px"
-                 android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
-                 android:textColor="#FFFFFF"
-                 android:textSize="24sp" />
- -->
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
