@@ -23,7 +23,7 @@
             android:background="#7A000000"
             android:fontFamily="@font/bank"
 
-            android:gravity="center"
+            android:gravity="left"
             android:text="  Our Location:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
@@ -50,7 +50,6 @@
             android:background="#7A000000"
             android:fontFamily="@font/bank"
             android:gravity="center|left"
-
             android:text="  How to reach us:"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
