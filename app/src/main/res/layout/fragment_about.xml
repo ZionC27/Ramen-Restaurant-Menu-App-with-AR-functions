@@ -13,7 +13,7 @@
         <TextView
             android:id="@+id/Logo"
             android:layout_width="match_parent"
-            android:layout_height="127dp"
+            android:layout_height="176dp"
             android:background="@drawable/logo" />
 
         <TextView
@@ -71,7 +71,7 @@
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
-            android:layout_height="88dp"
+            android:layout_height="106dp"
             android:background="#7A000000"
             android:fontFamily="@font/bank"
             android:gravity="center"

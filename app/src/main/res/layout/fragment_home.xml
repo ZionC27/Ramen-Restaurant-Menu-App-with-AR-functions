@@ -36,12 +36,14 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="211dp"
+                android:layout_height="297dp"
                 android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingTop="30dp"
-                android:paddingBottom="30dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
                 android:text="A cozy Ramen Bar serving noodles in flavourful broth, boiled for 12–16 hours with many nutritious ingredients — featuring signature Japanese appies. All made-to-order — just for you!"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
