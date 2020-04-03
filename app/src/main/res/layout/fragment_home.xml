@@ -31,33 +31,50 @@
                 android:background="#D2F0F0F0"
                 app:srcCompat="@drawable/wakayama" />
 
-            <ImageView
-                android:id="@+id/imageView11"
+            <TextView
+                android:id="@+id/textView21"
                 android:layout_width="match_parent"
-                android:layout_height="410dp"
-                app:srcCompat="@drawable/spicyclose" />
+                android:layout_height="232dp"
+                android:background="#7A000000"
+                android:fontFamily="@font/font"
+                android:gravity="center|center_horizontal"
+                android:paddingTop="40px"
+                android:text="The Wakayama Ramen Bar"
+                android:textColor="#FCFCFC"
+                android:textSize="50sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="271dp"
                 android:background="#7A000000"
                 android:backgroundTintMode="add"
                 android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingTop="30px"
+                android:paddingLeft="30px"
+                android:paddingTop="1px"
+                android:paddingRight="30px"
+                android:paddingBottom="30px"
                 android:text="A cozy Ramen Bar serving noodles in flavourful broth, boiled for 12–16 hours with many nutritious ingredients — featuring signature Japanese appies. All made-to-order — just for you!"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textColorHighlight="#0E0E0E"
                 android:textColorLink="#0F0F0F"
                 android:textIsSelectable="false"
-                android:textSize="36sp" />
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:background="#27BEBEBE"
+                android:backgroundTint="#2FC7C7C7"
+                app:srcCompat="@drawable/spicyclose" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="349dp"
+                android:layout_height="316dp"
                 android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:gravity="center"

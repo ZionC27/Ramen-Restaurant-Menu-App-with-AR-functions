@@ -27,19 +27,19 @@ public class AboutFragment extends Fragment
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
 
-        View view = inflater.inflate(R.layout.fragment_map, container, false);
+        View view = inflater.inflate(R.layout.fragment_about, container, false);
 
-        Button button;
-
-        button = (Button)view.findViewById(R.id.menuButton);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                //mapActivity();
-            }
-        });
+//        Button button;
+//
+//        button = (Button)view.findViewById(R.id.menuButton);
+//
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                //mapActivity();
+//            }
+//        });
 
         return view;
         //orginal code

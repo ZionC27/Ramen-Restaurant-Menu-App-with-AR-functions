@@ -8,14 +8,86 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/wood"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:scrollbarSize="3dp">
 
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="match_parent"
-            android:layout_height="183dp"
+            android:layout_height="174dp"
             android:background="#B7DBDBDB"
             app:srcCompat="@drawable/wakayama" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="center"
+            android:paddingLeft="50px"
+            android:paddingRight="50px"
+            android:text="Join Us For a Bowl"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="416dp"
+            app:srcCompat="@drawable/store" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="🍜                                #101 - 795 McGill Road kamloops, BC V2C0B9"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="📞                                236 - 425 - 3330 "
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:background="#7A000000"
+            android:fontFamily="@font/bank"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:text="📧                                Email us :                                       Wakayama@shaw.ca"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:fontFamily="@font/cuisine"
+            android:gravity="center"
+            android:text="Connect With Us!"
+            android:textColor="#FFF7F7"
+            android:textSize="36sp" />
 
 
         <!--<Button
