@@ -15,12 +15,13 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
-        android:background="#7A000000">
+        android:layout_marginBottom="0dp">
 
         <LinearLayout
+
+            android:id="@+id/gallery"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/wood"
             android:orientation="vertical">
 
@@ -28,82 +29,69 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                android:background="#D2F0F0F0"
-                app:srcCompat="@drawable/wakayama" />
+                app:srcCompat="@drawable/logo" />
 
-            <ImageView
-                android:id="@+id/imageView11"
+            <TextView
+                android:id="@+id/Purpose"
                 android:layout_width="match_parent"
-                android:layout_height="410dp"
-                app:srcCompat="@drawable/spicyclose" />
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bank"
+                android:gravity="center"
+                android:paddingTop="50px"
+                android:text="Who we are:"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#7A000000"
-                android:backgroundTintMode="add"
                 android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingTop="30px"
                 android:text="A cozy Ramen Bar serving noodles in flavourful broth, boiled for 12–16 hours with many nutritious ingredients — featuring signature Japanese appies. All made-to-order — just for you!"
-                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textColorHighlight="#0E0E0E"
-                android:textColorLink="#0F0F0F"
-                android:textIsSelectable="false"
                 android:textSize="36sp" />
 
             <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="349dp"
-                android:background="#7A000000"
-                android:fontFamily="@font/bank"
-                android:gravity="center"
-                android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="match_parent"
-                android:layout_height="279dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/misoclose" />
-
-            <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/specials"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/cuisine"
+                android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingTop="30dp"
-                android:text="Connect With Us!"
-                android:textColor="#FFF7F7"
-                android:textSize="36sp" />
+                android:paddingTop="50px"
+                android:text="Specials:"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="143dp"
-                android:layout_height="134dp"
-                android:background="@drawable/facebook"
-                android:scaleType="fitCenter"
-                android:translationX="30dp"
-                android:translationY="60dp"
-                android:onClick="startIntents"
-                app:srcCompat="@drawable/facebook" />
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="143dp"
-                android:layout_height="134dp"
-                android:background="@drawable/instagram"
-                android:scaleType="fitCenter"
-                android:translationX="230dp"
-                android:translationY="-75dp"
-                app:srcCompat="@drawable/instagram" />
+            <!--
+            Was going to add a horizontal scroll view show speicals, the code is written in the home.java class
 
+            Needs:
+
+            Hoizontalview
+
+            embed within; a linear layout where you can drag and drop images.
+            link:
+            https://www.youtube.com/watch?v=hl0AcuplFwE
+
+            -->
+
+
+
+
+            <!-- <TextView
+                 android:id="@+id/textView8"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/bank"
+                 android:gravity="center"
+                 android:paddingTop="50px"
+                 android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
+                 android:textColor="#FFFFFF"
+                 android:textSize="24sp" />
+ -->
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

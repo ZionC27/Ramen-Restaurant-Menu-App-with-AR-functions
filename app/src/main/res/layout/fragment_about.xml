@@ -9,88 +9,65 @@
         android:background="#7A000000"
         android:orientation="vertical">
 
+
         <TextView
+            android:id="@+id/Logo"
             android:layout_width="match_parent"
             android:layout_height="127dp"
-            android:background="@drawable/name" />
+            android:background="@drawable/logo" />
 
         <TextView
-            android:id="@+id/text1"
+            android:id="@+id/Location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
             android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
+            android:gravity="left"
             android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text=" A cozy Ramen Bar..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"/>
+            android:text="Our Location:"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="50px"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp" />
+
 
         <TextView
+            android:id="@+id/Purpose"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
             android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
+            android:gravity="left"
             android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...Serving noodles in flavorful broth, boiled for 12-16 hours..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
+            android:text="The purpose of this App:"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...With various nutritious ingredients..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"/>
-
-        <TextView
+            android:id="@+id/Purpose1"
             android:layout_width="match_parent"
-            android:layout_height="174dp"
-            android:background="@drawable/VeggiesBitch" />
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
             android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
+            android:gravity="center"
             android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...featuring signature Japanese appies made-to-order..."
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
+            android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="30px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="50px"
-            android:text="...Just for you!"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp" />
 
-        <Button
+
+<!--        <Button
             android:id="@+id/menuButton"
             android:layout_width="match_parent"
             android:layout_height="287dp"
@@ -102,21 +79,7 @@
             android:textColor="#FFFFFF"
             android:textSize="25sp"
             android:textStyle="bold" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/design_default_color_on_secondary"
-            android:fontFamily="@font/bank"
-            android:paddingLeft="50px"
-            android:paddingTop="50px"
-            android:paddingRight="30px"
-            android:paddingBottom="30px"
-            android:text="...All made-to-order - just for you!"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="25sp"
-            android:textStyle="bold"/>
-
+        -->
 
 
         <!--<Button
