@@ -29,7 +29,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                app:srcCompat="@drawable/logo" />
+                android:background="#BE555454"
+                app:srcCompat="@drawable/wakayama" />
 
             <TextView
                 android:id="@+id/Purpose"
