@@ -29,20 +29,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                android:background="#E9555252"
+                android:background="#E9A2A0A0"
                 app:srcCompat="@drawable/wakayama" />
-
-            <TextView
-                android:id="@+id/Purpose"
-                android:layout_width="match_parent"
-                android:layout_height="197dp"
-                android:background="#7A000000"
-                android:fontFamily="@font/cuisine"
-                android:gravity="center"
-                android:paddingTop="50px"
-                android:text="The Wakayama Ramen Bar"
-                android:textColor="#FFFFFF"
-                android:textSize="50sp" />
 
 
             <TextView
@@ -52,9 +40,8 @@
                 android:background="#7A000000"
                 android:fontFamily="@font/bank"
                 android:gravity="center"
-                android:paddingLeft="30px"
-                android:paddingRight="30px"
-                android:paddingBottom="30px"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
                 android:text="A cozy Ramen Bar serving noodles in flavourful broth, boiled for 12–16 hours with many nutritious ingredients — featuring signature Japanese appies. All made-to-order — just for you!"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp" />
@@ -64,20 +51,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="416dp"
                 app:srcCompat="@drawable/spicyclose" />
-
-            <TextView
-                android:id="@+id/purpose2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#70202020"
-                android:fontFamily="@font/bank"
-                android:gravity="center"
-                android:paddingLeft="30px"
-                android:paddingTop="50px"
-                android:paddingRight="30px"
-                android:text="This app is to give users the ability of viewing the food we have to offer here in the resturant before you order or even from home! Whereever you are you can view a bowl of ramen right in front of you using just your phone. We hope to see you down here for a bowl soon!"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/specials"
