@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/imageView11"
             android:layout_width="match_parent"
-            android:layout_height="134dp"
+            android:layout_height="173dp"
             android:background="#F2C4C2C2"
             app:srcCompat="@drawable/wakayama" />
 
