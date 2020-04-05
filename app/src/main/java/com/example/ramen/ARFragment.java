@@ -37,7 +37,7 @@ public class ARFragment extends Fragment  {
             public void onClick(View v) {
                Toast.makeText(getActivity(),"og",Toast.LENGTH_LONG).show();
                intent = new Intent(getActivity(),Arfunction.class);
-               String og = "Ramen";
+               String og = "og";
                intent.putExtra("Ramen", og);
                startActivity(intent);
             }
@@ -56,36 +56,57 @@ public class ARFragment extends Fragment  {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"spicy",Toast.LENGTH_LONG).show();
+
             }
         });
         kimchi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"kimchi",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "kimchiobj";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         sesame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"sesame",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "untitled";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         curry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"curry",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "Ramen";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         black.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"black",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "Ramen";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         house.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getActivity(),"house",Toast.LENGTH_LONG).show();
+                intent = new Intent(getActivity(),Arfunction.class);
+                String og = "Ramen";
+                intent.putExtra("Ramen", og);
+                startActivity(intent);
             }
         });
         return view;

@@ -1,0 +1,13 @@
+# Blender MTL File: 'og.blend'
+# Material Count: 1
+
+newmtl material_0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zion2\\Desktop\\og\\map_4908f0c2-973d-491d-bd44-b17f7a9e2399_densified_mesh_textured_4096.jpg

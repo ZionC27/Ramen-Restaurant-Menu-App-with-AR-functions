@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'material_0',
+      parameters: [
+        {
+          baseColor: 'map_384fce16-5750-4561-baf7-d76f0eaf28a3_densified_mesh_textured_4096',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/kimchiobj.obj',
+    name: 'kimchiobj',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/map_384fce16-5750-4561-baf7-d76f0eaf28a3_densified_mesh_textured_4096.jpg',
+      name: 'map_384fce16-5750-4561-baf7-d76f0eaf28a3_densified_mesh_textured_4096',
+      pipeline_name: 'sampledata/map_384fce16-5750-4561-baf7-d76f0eaf28a3_densified_mesh_textured_4096.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

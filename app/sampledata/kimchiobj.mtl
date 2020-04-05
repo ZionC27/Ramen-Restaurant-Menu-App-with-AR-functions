@@ -1,0 +1,13 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl material_0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zion2\\Desktop\\Kimchi\\map_384fce16-5750-4561-baf7-d76f0eaf28a3_densified_mesh_textured_4096.jpg

@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'material_0',
+      parameters: [
+        {
+          baseColor: 'map_4908f0c2-973d-491d-bd44-b17f7a9e2399_densified_mesh_textured_4096',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/og.obj',
+    name: 'og',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/map_4908f0c2-973d-491d-bd44-b17f7a9e2399_densified_mesh_textured_4096.jpg',
+      name: 'map_4908f0c2-973d-491d-bd44-b17f7a9e2399_densified_mesh_textured_4096',
+      pipeline_name: 'sampledata/map_4908f0c2-973d-491d-bd44-b17f7a9e2399_densified_mesh_textured_4096.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

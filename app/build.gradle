@@ -57,3 +57,20 @@ sceneform.asset('sampledata/Miso.obj',
         'default',
         'sampledata/Miso.sfa',
         'src/main/assets/Miso')
+
+
+
+sceneform.asset('sampledata/kimchiobj.obj',
+        'default',
+        'sampledata/kimchiobj.sfa',
+        'src/main/assets/kimchiobj')
+
+sceneform.asset('sampledata/untitled.obj',
+        'default',
+        'sampledata/untitled.sfa',
+        'src/main/assets/untitled')
+
+sceneform.asset('sampledata/og.obj',
+        'default',
+        'sampledata/og.sfa',
+        'src/main/assets/og')
